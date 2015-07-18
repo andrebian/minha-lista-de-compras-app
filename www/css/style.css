@@ -1,0 +1,71 @@
+/* Empty. Add your own CSS if you like */
+
+.main{
+    background: #eee;
+    padding: 10px;
+    height: auto;
+}
+
+input{
+    border-radius: 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px !important;
+}
+
+input[type="text"] {
+    width: 100%;
+}
+
+input[type="number"] {
+    width: 49%;
+    margin-bottom: 15px;
+}
+
+.inputs-numbers{
+    text-align: center;
+}
+
+
+#valorTotal{
+    background: #ccc;
+    padding: 20px;
+    height: 60px;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 10px;
+
+}
+
+.custom-button-positive{
+    width: 100%;
+}
+
+th{
+    border: #ccc solid 1px;
+    padding: 10px;
+}
+td{
+    border: #ccc solid 1px;
+    padding: 5px;
+}
+
+.td-centered{
+    text-align: center;
+}
+
+.action{
+    text-align: center;
+}
+
+.info{
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #779;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+}
