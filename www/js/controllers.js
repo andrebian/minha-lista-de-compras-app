@@ -85,8 +85,8 @@ angular.module('ListaDeCompras', ['ionic'])
  		});
  	}
 
- 	alertPopup.then(function(res) {
-
- 	});
+// 	alertPopup.then(function(res) {
+//
+// 	});
  };
 });

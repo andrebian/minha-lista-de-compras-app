@@ -30,47 +30,48 @@
       </ion-header-bar>
       <ion-content>
         <div class="main">
-          <br />
+          <br>
           <div style="padding: 10px !important;">
-            O total de sua compra até o momento é de: <div id="valorTotal">R$ 0,00</div>
+            O total de sua compra at&#xE9; o momento &#xE9; de: <div id="valorTotal">R$ 0,00</div>
           </div>
           <hr>
           <div id="item-lista" class="item-lista">
-            <input type="text" id="item" placeholder="Descrição">
-            <br />
+            <input type="text" id="item" placeholder="Descri&#xE7;&#xE3;o">
+            <br>
             <div class="inputs-numbers"> 
-              <input type="number" id="valor" placeholder="1.99 (somente ponto)" style="float:left;">&nbsp;
+              <input type="number" id="valor" placeholder="1.99 (somente ponto)" style="float:left;">&#xA0;
               <input type="number" id="quantidade" placeholder="Quantidade" style="float:right;">
             </div>
-            <br />
-            <div data-ng-init="btnId='asd';">
+            <br>
+            <div data-ng-init="btnId=&apos;asd&apos;;">
               <button data-ng-attr-id="btnId" ng-controller="PopupCtrl" class="button button-positive custom-button-positive" ng-click="adicionarItem()">
                   ADICIONAR ITEM
               </button>
             </div>
           </div>
-          <br />
+          <br>
           
           <div class="produtos" id="produtos">
             <table style="width:100%;">
               <thead>
                 <tr>
-                  <th>Descrição</th>
+                  <th>Descri&#xE7;&#xE3;o</th>
                   <th>Qtd x Valor Unit</th>
                   <th>Total</th>
                 </tr>
               </thead>
-              <input type="hidden" id="amount" value="0.00"></div>
+              <input type="hidden" id="amount" value="0.00">
               <tbody id="items-content">
               </tbody>
-            </table>
-              <div class="info">Ainda não existe a opção de remover...</div>
+              </table>
+          </div>
+              <div class="info">Ainda n&#xE3;o existe a op&#xE7;&#xE3;o de remover...</div>
           </div>
 
-          <br />
-          <br />
-          <br />
-        </div>
+          <br>
+          <br>
+          <br>
+        
         
       </ion-content>
     </ion-pane>
